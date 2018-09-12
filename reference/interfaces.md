@@ -97,6 +97,8 @@ title: Interfaces reference
 | `shutdown` | no | no |  |
 | `snapd-control` | no | no |  |
 | `spi` | no | no |  |
+| `ssh-keys` | no | no |  |
+| `ssh-public-keys` | no | no |  |
 | `storage-framework-service` | no | no |  |
 | `system-observe` | no | no |  |
 | `system-trace` | no | no |  |
@@ -210,6 +212,8 @@ title: Interfaces reference
 * `shutdown`: Can control the system power state and rebooting, powering off or halting the system.
 * `snapd-control`: Can manage snaps via snapd.
 * `spi`: Can access SPI devices. This is restricted because it provides privileged access to SPI hardware (_2.28+_).
+* `ssh-keys`: Can read SSH user configuration, public and private keys (2.31+).
+* `ssh-public-keys`: Can read SSH non-sensitive user configuration and public keys (2.31+).
 * `storage-framework-service`: Can access snaps providing the Storage Framework Service interface (_2.25+_).
 * `system-observe`: Can query system status information which gives privileged read access to all processes on the system.
 * `system-trace`: Can use kernel tracing facilities. This is restricted because it gives privileged access to all processes on the system and should only be used with trusted apps.

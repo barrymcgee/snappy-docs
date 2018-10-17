@@ -1,8 +1,10 @@
-# Snapcraft Documentation Website
+# Snapcraft Documentation Website (deprecated)
 
-The is the source code for the Snapcraft Documentation Website (<https://docs.snapcraft.io>) built with [Jekyll](https://jekyllrb.com/).
+The is the source code for the *old* Snapcraft Documentation Website, formally hosted at <https://docs.snapcraft.io>, and built with [Jekyll](https://jekyllrb.com/).
 
-## Development
+Snapcraft documentation is now automatically generated from the posts and pages hosted on the [Snapcraft forum](https://forum.snapcraft.io/c/doc). See our [Documentation guidelines](https://docs.snapcraft.io/t/documentation-guidelines/3798) if you'd like to contribute.
+
+## Building these docs
 
 Requirements:
 - Docker should be installed
